@@ -1,0 +1,45 @@
+h1,p{
+    font-size: 45px;
+}
+
+blockquote{
+    font-size: 25px;
+}
+
+/* image */
+img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/* About */
+#profile{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    object-fit: none;
+}
+#about{
+    position: relative;
+    top: 5px;
+    display: block;
+    margin: auto;
+}
+#profile .box{
+    height: 220px;
+    width: 228px;
+    padding: 0px 25px;
+    padding: 10px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+
+#profile .box ul li{
+    font-family: 'Lobster';
+    font-size: 15px;
+    text-align: left;
+}

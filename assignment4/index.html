@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            background-color: yellowgreen;
+        }
+        h1{
+            font-family: 'Lobster',cursive;
+            font-size: 80px;
+            width: 103%;
+            text-align: center;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+            /* position: absolute;
+            top: 2px;
+            right: 2px; */
+            display: block;
+            margin: auto;
+            border-radius: 25px;
+        }
+        blockquote{
+            color: red;
+            font-family: 'Lobster',cursive;
+            font-size: 40px;
+            text-align: center;
+            font-style: italic;
+        }
+        p{
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Lobster',cursive;
+        }
+    
+        #profile{
+            margin: 100px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            object-fit: contain;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        #profile .box{
+            border: 6px solid black;
+            margin: 3px 12px;
+            padding: 10px 120px;
+            border-radius: 35px;
+            /* background-color: rgb(118, 255, 171); */
+            background-color: rgb(231, 170, 233);
+            z-index: -1;
+            /* opacity: 0.8; */
+            box-shadow: 10px 15px 18px rgb(39, 3, 3);
+        }
+        #profile .box{
+            height: 250px;
+            width: 300px;
+            display: block;
+            margin: 8px auto;
+            box-shadow: 8px 12px 12px rgb(37, 13, 13);
+        }
+        #profile .box ul li{
+            font-family: 'Lobster',cursive;
+            font-size: 1.2rem;
+        }
+    </style>
+    <link rel="stylesheet" media="screen and (max-width : 1200px)"  href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width : 700px)"  href="phone.css">
+</head>
+<body>
+    <h1>Welcome to my personal blog</h1>
+    
+        <img src="raj.jpg" alt="">
+    
+        <p><strong>My Ideology</strong></p>
+        <blockquote>
+            Failure is an option here. If things are not failing, you are not innovating enough.
+        </blockquote>
+    <section id="about">
+    <div id="profile">
+        <div class="box">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Gaming</li>
+                    <ul>
+                        <li>CSGO, Valorant, FIFA</li>
+                    </ul>
+                <li>Music</li>
+                <ul>
+                    <li>Sufi, Metal, Pop</li>
+                </ul>
+                <li>Cooking</li>
+                <ul>
+                    <li>Butter Chicken, Biryani, etc.</li>
+                </ul>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>My Education</h2>
+            <ul>
+                <li><abbr title="National Institute of Technology, Warangal">NITW</abbr> (2018-present)</li>
+                    <ul>Warangal, Telangana</ul>
+                <li>Salt Brook Academy (12<sup>th</sup>)</li>
+                    <ul>Dibrugarh, Assam</ul>
+                <li>Salt Brook School (10<sup>th</sup>)</li>
+                    <ul>Dibrugarh, Assam</ul>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Languages</li>
+                <ul>
+                    <li>C++, Java, HTML, CSS, Javascript</li>
+                </ul>  
+                <li>Databases</li>
+                <ul>
+                    <li>MySQL</li>
+                </ul>
+                <li>Others</li>
+                <ul>
+                    <li>Web Development, Blockchain</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</section>
+</body>
+</html>
